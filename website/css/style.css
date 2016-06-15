@@ -1,0 +1,145 @@
+.container {
+  display: flex;
+}
+
+* {
+  transition: all 2s;
+
+}
+
+
+ul.webOption {
+    -webkit-padding-start: 0px;
+}
+
+ul {
+    -webkit-padding-start: 0px;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+}
+
+
+@import "compass/css3";
+
+.wrapper {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+
+  font-weight: bold;
+  text-align: center;
+}
+
+.wrapper > * {
+  padding: 15px;
+  flex: 1 100%;
+}
+a {
+    text-decoration: none;
+    color: black;
+    -webkit-padding-start: 0px;
+}
+.header {
+}
+
+.footer {
+}
+
+.main {
+  text-align: left;
+  /* position: fixed; */
+  /* top: -18px; */
+  /* left: 426px; */
+}
+
+@media all and (max-width: 480px) {
+.main {
+  margin-top: 2380px;
+  }
+}
+
+.aside-1 {
+  font-size: 14px;
+  text-decoration: none;
+  font-family: "Lucida Console", Monaco, monospace;
+
+}
+
+.aside-2 {
+  overflow-y: scroll;
+  position: relative;
+}
+
+@media all and (min-width: 600px) {
+  .aside { flex: 1 auto; }
+}
+
+@media all and (min-width: 800px) {
+  .main    {flex: 3 0px;position: fixed;top: -18px;left: 426px;}
+  .aside-1 {order: 1;margin-top: 100px;font-size: 14px;text-decoration: none;/* width: 20%; */font-family: "Lucida Console", Monaco, monospace;position: fixed;left: 60px;bottom: 0;top: -60px;}
+  .main    {order: 2;}
+  .aside-2 {order: 3;position: relative;font-family: monaco;font-size: 14px;}
+  .footer  { order: 4; }
+}
+
+body {
+  padding: 2em;
+}
+
+.experimentsTab {
+ transition: all linear 0.5s;
+}
+
+.experimentsTab {
+  opacity: 1;
+}
+
+.experimentsTab {
+  font-size: 10px;
+}
+
+
+header {
+  padding: .5vw;
+  font-size: 0;
+  display: -ms-flexbox;
+  -ms-flex-wrap: wrap;
+  -ms-flex-direction: column;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  display: -webkit-box;
+  display: flex;
+}
+
+header div img {
+  width: 100%;
+  height: auto;
+  padding: 2px;
+}
+@media screen and (max-width: 400px) {
+  header div { margin: 0; }
+  header { padding: 0; }
+
+}
+
+li {
+    list-style: none;
+}
+
+transition: .5s;
