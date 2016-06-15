@@ -9,6 +9,10 @@ app.config(function($stateProvider, $urlRouterProvider){
     url: '/home',
     templateUrl: 'templates/home.html'
   })
+  .state('orb', {
+    url: '/orb',
+    templateUrl: 'templates/orb.html'
+  })
 })
 
 
@@ -59,7 +63,7 @@ angular.module('app').factory('randomColor', ['p5', function(p5) {
 }]);
 
 
-//======== WORM =======//
+//<======== "WORM"  /home =======>
 angular.module('app').factory('worm', ['p5', function(p5) {
 
 var num = 60;
@@ -116,6 +120,57 @@ var g = p.random(0, 255);
 
 
 }]);
+
+// orb
+angular.module('app').factory('orb', ['p5', function(p5) {
+
+var num = 60;
+var x = [];
+var y = [];
+var cnv;
+
+
+return function(p){
+  p.setup = function() {
+  var cnv = p.createCanvas(875, 510);
+   // Move the canvas so it's inside our <div id="sketch-holder">.
+   cnv.parent('sketch-holder');
+   p.noStroke();
+
+   for (var i = 0; i < num; i++) {
+     x[i] = 0
+     y[i] = 0
+   }
+
+ }
+ // function windowResized() {
+ //   centerCanvas();
+ // }
+
+ p.draw = function() {
+
+   p.background(255)
+
+   //copy array values from back to front
+   for (var i = num - 1; i > 0; i--) {
+     x[i] = x[i - 1]
+     y[i] = y[i - 1]
+   }
+   x[0] = p.mouseX; //set the first element
+   y[0] = p.mouseY; // set the first element
+   for (var i = 0; i < num; i++) {
+     p.fill(i * 4);
+     p.rect(x[i], y[i], 120, 120);
+
+   }
+ }
+
+}
+
+
+}]);
+//
+
 angular.module('app').factory('worm2', ['p5', function(p5) {
 
 var num = 60;
@@ -179,3 +234,12 @@ return function(p){
 
 
 }]);
+// 
+// function animateCtrl() {
+//   var self = this;
+//
+//   self.shown = false;
+// }
+//
+// angular.module('app', ['ngAnimate'])
+// .controller('animateCtrl', animateCtrl)
