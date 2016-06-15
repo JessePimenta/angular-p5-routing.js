@@ -12,6 +12,9 @@ app.config(function($stateProvider, $urlRouterProvider){
 })
 
 
+//<=================P5 factories ==================>
+
+
 angular.module('app').factory('randomColor', ['p5', function(p5) {
 
   var num = 60;
@@ -55,6 +58,8 @@ angular.module('app').factory('randomColor', ['p5', function(p5) {
   };
 }]);
 
+
+//======== WORM =======//
 angular.module('app').factory('worm', ['p5', function(p5) {
 
 var num = 60;
