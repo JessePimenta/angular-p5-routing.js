@@ -9,9 +9,21 @@ app.config(function($stateProvider, $urlRouterProvider){
     url: '/home',
     templateUrl: 'templates/home.html'
   })
-  .state('orb', {
-    url: '/orb',
-    templateUrl: 'templates/orb.html'
+  .state('lightworks', {
+    url: '/lightworks',
+    templateUrl: 'templates/lightworks.html'
+  })
+  .state('ballpit-sculpture', {
+    url: '/ballpit-sculpture',
+    templateUrl: 'templates/ballpit-sculpture.html'
+  })
+  .state('instant-abstract-expressionism', {
+    url: '/instant-abstract-expressionism',
+    templateUrl: 'templates/instant-expressionism.html'
+  })
+  .state('design', {
+    url: '/design',
+    templateUrl: 'templates/design.html'
   })
 })
 
@@ -121,18 +133,19 @@ var g = p.random(0, 255);
 
 }]);
 
-// orb
-angular.module('app').factory('orb', ['p5', function(p5) {
+// flashing lights
+angular.module('app').factory('instantExpressionism', ['p5', function(p5) {
 
-var num = 60;
+var num = 300;
 var x = [];
 var y = [];
 var cnv;
+var randNum;
 
 
 return function(p){
   p.setup = function() {
-  var cnv = p.createCanvas(875, 510);
+  var cnv = p.createCanvas(875, 710);
    // Move the canvas so it's inside our <div id="sketch-holder">.
    cnv.parent('sketch-holder');
    p.noStroke();
@@ -148,8 +161,15 @@ return function(p){
  // }
 
  p.draw = function() {
+   var randNum = p.random(1500,800)
+   var r = p.random(0, 255);
+   var g = p.random(0, 255);
 
-   p.background(255)
+
+   var colorAngle = p.radians(p.frameCount);
+   var colorVector = p5.Vector.fromAngle(colorAngle).setMag(255);
+   p.background(randNum - randNum,0)
+
 
    //copy array values from back to front
    for (var i = num - 1; i > 0; i--) {
@@ -158,11 +178,151 @@ return function(p){
    }
    x[0] = p.mouseX; //set the first element
    y[0] = p.mouseY; // set the first element
+
    for (var i = 0; i < num; i++) {
-     p.fill(i * 4);
-     p.rect(x[i], y[i], 120, 120);
+     p.fill(r, g, colorVector.y, i * 20);
+    //  p.stroke(255);
+
+    //  p.fill(i * 4);
+     p.ellipse(x[i], y[i], 10,10);
 
    }
+   p.ellipse(p.random(900), p.random(1200), 5, 5);
+   p.ellipse(p.random(900), p.random(1200), 10, 10);
+   p.ellipse(p.random(900), p.random(1200), 20, 20);
+   p.ellipse(p.random(900), p.random(1200), 20, 20);
+ }
+
+}
+
+
+}]);
+
+// flashing lights
+angular.module('app').factory('lightworks', ['p5', function(p5) {
+
+var num = 300;
+var x = [];
+var y = [];
+var cnv;
+var randNum;
+
+
+return function(p){
+  p.setup = function() {
+  var cnv = p.createCanvas(875, 710);
+   // Move the canvas so it's inside our <div id="sketch-holder">.
+   cnv.parent('sketch-holder');
+   p.noStroke();
+
+   for (var i = 0; i < num; i++) {
+     x[i] = 0
+     y[i] = 0
+   }
+
+ }
+ // function windowResized() {
+ //   centerCanvas();
+ // }
+
+ p.draw = function() {
+   var randNum = p.random(1500,800)
+   var r = p.random(0, 255);
+   var g = p.random(0, 255);
+
+
+   var colorAngle = p.radians(p.frameCount);
+   var colorVector = p5.Vector.fromAngle(colorAngle).setMag(255);
+   p.background(0)
+
+
+   //copy array values from back to front
+   for (var i = num - 1; i > 0; i--) {
+     x[i] = x[i - 1]
+     y[i] = y[i - 1]
+   }
+   x[0] = p.mouseX; //set the first element
+   y[0] = p.mouseY; // set the first element
+
+   for (var i = 0; i < num; i++) {
+     p.fill(r, g, colorVector.y, i * 20);
+    //  p.stroke(255);
+
+    //  p.fill(i * 4);
+     p.ellipse(x[i], y[i], 10,10);
+
+   }
+   p.ellipse(p.random(1200), p.random(1200), 5, 5);
+   p.ellipse(p.random(700), p.random(1200), 10, 10);
+   p.ellipse(p.random(700), p.random(1200), 30, 30);
+   p.ellipse(p.random(1200), p.random(1200), 5, 5);
+   p.ellipse(p.random(1200), p.random(1200), 20, 20);
+   p.ellipse(p.random(700), p.random(1200), 30, 30);
+   p.ellipse(p.random(1200), p.random(1200), 35, 35);
+ }
+
+}
+
+
+}]);
+
+// ballpit Sculpture
+angular.module('app').factory('ballpitSculpture', ['p5', function(p5) {
+
+var num = 300;
+var x = [];
+var y = [];
+var cnv;
+var randNum;
+
+
+return function(p){
+  p.setup = function() {
+  var cnv = p.createCanvas(875, 710);
+   // Move the canvas so it's inside our <div id="sketch-holder">.
+   cnv.parent('sketch-holder');
+   p.noStroke();
+
+   for (var i = 0; i < num; i++) {
+     x[i] = 0
+     y[i] = 0
+   }
+
+ }
+ // function windowResized() {
+ //   centerCanvas();
+ // }
+
+ p.draw = function() {
+   var randNum = p.random(1500,800)
+   var r = p.random(0, 255);
+   var g = p.random(0, 255);
+
+
+   var colorAngle = p.radians(p.frameCount);
+   var colorVector = p5.Vector.fromAngle(colorAngle).setMag(255);
+   p.background(randNum - randNum,0)
+
+
+   //copy array values from back to front
+   for (var i = num - 1; i > 0; i--) {
+     x[i] = x[i - 1]
+     y[i] = y[i - 1]
+   }
+   x[0] = p.mouseX; //set the first element
+   y[0] = p.mouseY; // set the first element
+
+   for (var i = 0; i < num; i++) {
+     p.fill(r, g, colorVector.y, i * 20);
+     p.stroke(255);
+
+    //  p.fill(i * 4);
+     p.ellipse(x[i], y[i], 70,70);
+
+   }
+  //  p.ellipse(p.random(700), p.random(1200), 5, 5);
+  //  p.ellipse(p.random(700), p.random(1200), 10, 10);
+  //  p.ellipse(p.random(700), p.random(1200), 20, 20);
  }
 
 }
@@ -234,7 +394,9 @@ return function(p){
 
 
 }]);
-// 
+
+
+//
 // function animateCtrl() {
 //   var self = this;
 //

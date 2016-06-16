@@ -5,6 +5,7 @@
   <title>Jesse Pimenta</title>
   <link rel="stylesheet" href="css/style.css" media="screen" title="no title" charset="utf-8">
   <link rel="stylesheet" href="css/hover.css" media="screen" title="no title" charset="utf-8">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="all">
 </head>
 <body>
       <div class="wrapper">
@@ -12,26 +13,26 @@
         <aside class="aside aside-1">
 
                 <a ui-sref='home'>
-                  <p class='fade-in one'>Home</b></p>
+                  <p class='fade-in one'> / Home</b></p>
                 </a>
                 <a>
-                  <p class='fade-in two'>Web Design & Development <b ng-click='experiments=!experiments'>></b></p>
+                  <p class='fade-in two' ng-click='experiments=!experiments'>/ Web Design & Development </p><!--<b class='hvr-icon-hang' ng-click='experiments=!experiments'></b>-->
                 </a>
                 <ul class='webOption'>
-                  <a  class='experimentsTab modal show' ng-show='experiments'> experiments <b class='hvr-bob' ng-click='explist=!explist '>></b> </a>
+                  <a  class='experimentsTab fade-in one hvr-bounce-in' ng-show='experiments' ng-click='explist=!explist'> experiments </a>
                 </ul>
                 <ul ng-show='explist'>
-                  <a ui-sref='orb' class='experimentsTab'> Orb </a>
-                  <a class='experimentsTab'> example2 </a>
-                  <a class='experimentsTab'> example3  </a>
-                  <a class='experimentsTab'> example4  </a>
+                  <a ui-sref='lightworks' class='experimentsTab fade-in one'> lightworks </a>
+                  <a href='/room.html' class='experimentsTab fade-in two'> Room </a>
+                  <a ui-sref='instant-abstract-expressionism' class='experimentsTab fade-in three'> instant-expressionism </a>
+                  <a ui-sref='ballpit-sculpture' class='experimentsTab fade-in four'> ballpit  </a>
                 </ul>
-                <a class='experimentsTab fade-in three' ng-show='experiments'> projects <b class='hvr-bob' ng-click='projlist=!projlist'>></b> </a>
+                <a class='experimentsTab fade-in one hvr-bounce-in' ng-show='experiments' ng-click='projlist=!projlist'> projects </a>
                 <ul ng-show='projlist'>
-                  <a class='experimentsTab'> proj1 </a>
-                  <a class='experimentsTab'> proj2 </a>
-                  <a class='experimentsTab'> proj3  </a>
-                  <a class='experimentsTab'> proj4  </a>
+                  <a class='experimentsTab fade-in one'> proj1 </a>
+                  <a class='experimentsTab fade-in two'> proj2 </a>
+                  <a class='experimentsTab fade-in three'> proj3  </a>
+                  <a class='experimentsTab fade-in four'> proj4  </a>
                 </ul>
                 <a ui-sref="design">
                   <p class='fade-in three'>/ Graphic Design</p>
@@ -55,9 +56,9 @@
           <!-- <div ng-show='gallery' gallery></div>
           <div ng-show='music'  music></div> -->
         </aside>
-        <footer class="footer"><p>Built using <a href="http://p5js.org/">P5.JS</a> and embedded in an Angular page.</p></footer>
+        <footer class="footer"><p>Built using <a href="http://p5js.org/">p5.js</a>
       </div>
-  <div ui-view></div>
+  <!-- <div ui-view></div> -->
   <!-- <p5 style='float:right'  sketch="randomColor"></p5>
   <div id='sketch-holder'>
     <p5  sketch='worm'></p5>

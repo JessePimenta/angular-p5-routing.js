@@ -4319,13 +4319,11 @@
 .hvr-icon-hang:before {
   content: "\f078";
   position: absolute;
-  right: 2em;
-  /* padding: 0 1px; */
-  top: -0.6em;
+  right: 1em;
+  padding: 0 1px;
   font-family: FontAwesome;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  font-size: 8px;
 }
 .hvr-icon-hang:hover:before, .hvr-icon-hang:focus:before, .hvr-icon-hang:active:before {
   -webkit-animation-name: hvr-icon-hang-sink, hvr-icon-hang;

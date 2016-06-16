@@ -50,7 +50,8 @@ export default StyleSheet.create({
     "a": {
         "textDecoration": "none",
         "color": "black",
-        "WebkitPaddingStart": 0
+        "WebkitPaddingStart": 0,
+        "cursor": "crosshair"
     },
     "header": {
         "paddingTop": .5 * vw,
@@ -113,6 +114,11 @@ export default StyleSheet.create({
         "WebkitAnimationDelay": "0.7s",
         "MozAnimationDelay": "0.7s",
         "animationDelay": "0.7s"
+    },
+    "fade-inoneSub": {
+        "WebkitAnimationDelay": "0.4s",
+        "MozAnimationDelay": "0.4s",
+        "animationDelay": "0.4s"
     },
     "fade-intwo": {
         "WebkitAnimationDelay": "1.2s",

@@ -1,0 +1,800 @@
+html {
+  height: auto
+}
+.perspective {
+  perspective: 800px;
+  perspective-origin: top center;
+  width: 100% auto;
+  height: auto
+}
+.perspective-card-wrap {
+  perspective: 1000px;
+  perspective-origin: top center;
+  display: inline-block
+}
+.perspective-card__content {
+  position: absolute;
+  top: 2rem;
+  left: 0;
+  width: 100%;
+  transform: translateZ(40px);
+  text-align: center;
+  width: 100% auto;
+  height: auto
+}
+.perspective-card {
+  width: 250px;
+  height: 350px;
+  margin: 50px;
+  color: #000;
+  padding: 1rem;
+  text-transform: uppercase;
+  font-family: 'OCR A Std';
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, .15);
+  position: relative;
+  transform-style: preserve-3d;
+  will-change: transform
+}
+.perspective-card-1 {
+  width: 250px;
+  height: 350px;
+  margin: 50px;
+  color: #fff;
+  padding: 1rem;
+  text-transform: uppercase;
+  font-family: 'OCR A Std';
+  background-image: url(/art-design/round-3/50360c8ad9e2308761c5aa1b64adc0364f0bb457/stagesofus.jpg);
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, .15);
+  background-size: contain;
+  position: relative;
+  transform-style: preserve-3d;
+  will-change: transform
+}
+.perspective-card-2 {
+  width: 250px;
+  height: 350px;
+  margin: 50px;
+  color: #fff;
+  padding: 1rem;
+  text-transform: uppercase;
+  font-family: 'OCR A Std';
+  background-image: url("/art-design/round-3/3d095c9f89e44e3b21af39f4c0af8e560f31480d/sludge ball.jpg");
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, .15);
+  background-size: cover;
+  position: relative;
+  transform-style: preserve-3d;
+  will-change: transform
+}
+.perspective-card-3 {
+  width: 250px;
+  height: 350px;
+  margin: 50px;
+  color: #fff;
+  padding: 1rem;
+  text-transform: uppercase;
+  font-family: 'OCR A Std';
+  background-image: url("/7157be26d41671bf0d5cab2bd8d0e16fbcbab0fe/95f73/art-design/round 2 scans/inittogetherbw.jpg");
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, .15);
+  background-size: cover;
+  position: relative;
+  transform-style: preserve-3d;
+  will-change: transform
+}
+.perspective-card-4 {
+  width: 250px;
+  height: 350px;
+  margin: 50px;
+  color: #fff;
+  padding: 1rem;
+  text-transform: uppercase;
+  font-family: 'OCR A Std';
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, .15);
+  background-size: cover;
+  background-image: url(/art-design/round-3/d9172bb9074c763af12fbe68fb81aa583cbe6e10/12547380_990528351017092_249112909_n.jpg);
+  position: relative;
+  transform-style: preserve-3d;
+  will-change: transform
+}
+.perspective-card-5 {
+  width: 250px;
+  height: 350px;
+  margin: 50px;
+  color: #fff;
+  padding: 1rem;
+  text-transform: uppercase;
+  font-family: 'OCR A Std';
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, .15);
+  background-size: cover;
+  background-image: url(/2d1f3642b0a98db16ae99b0af869830d359cac17/af3ab/art-design/round-3/fallingfallingfalling_green.jpg);
+  position: relative;
+  transform-style: preserve-3d;
+  will-change: transform
+}
+.perspective-card-6 {
+  width: 250px;
+  height: 350px;
+  margin: 50px;
+  color: #fff;
+  padding: 1rem;
+  text-transform: uppercase;
+  font-family: 'OCR A Std';
+  background-image: url("/art-design/round-3/98f8d71ccebc9df0ab7669571f17e31615d354ba/sensitive wires melting.jpg");
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, .15);
+  background-size: cover;
+  position: relative;
+  transform-style: preserve-3d;
+  will-change: transform
+}
+.perspective-card-7 {
+  width: 250px;
+  height: 350px;
+  margin: 50px;
+  color: #fff;
+  padding: 1rem;
+  text-transform: uppercase;
+  font-family: 'OCR A Std';
+  background-image: url(/524de85c1487446ae2ea07eedaa2261f34ce5a3a/629be/art-design/round-3/ballofghosts.jpg);
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, .15);
+  background-size: cover;
+  position: relative;
+  transform-style: preserve-3d;
+  will-change: transform
+}
+.perspective-card-8 {
+  width: 250px;
+  height: 350px;
+  margin: 50px;
+  color: #fff;
+  padding: 1rem;
+  text-transform: uppercase;
+  font-family: 'OCR A Std';
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, .15);
+  background-size: cover;
+  background-image: url("/art-design/round 2 scans/d01aa1671f1dde5b76a5defc4e4e1c9a4253adea/jp cursor images.jpg");
+  position: relative;
+  transform-style: preserve-3d;
+  will-change: transform
+}
+.perspective-card-9 {
+  width: 250px;
+  height: 350px;
+  margin: 50px;
+  color: #fff;
+  padding: 1rem;
+  text-transform: uppercase;
+  font-family: 'OCR A Std';
+  background-image: url("/03675103f805e665beb0eff4e1ddf6864b32ac7a/79e30/art-design/round-3/blue clean.jpg");
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, .15);
+  background-size: cover;
+  position: relative;
+  transform-style: preserve-3d;
+  will-change: transform
+}
+.perspective-card-design-1 {
+  width: 250px;
+  height: 350px;
+  margin: 50px;
+  margin-bottom: 30px;
+  color: #fff;
+  padding: 1rem;
+  text-transform: uppercase;
+  font-family: 'OCR A Std';
+  background-image: url(/design-shots/ae7ed3124a8a263a47d98471bab7702bc0dd2df5/obey-white-the-occult-tee-product-3-032814940-normal.jpeg);
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, .15);
+  background-size: cover;
+  -webkit-filter: invert(100%);
+  position: relative;
+  transform-style: preserve-3d;
+  will-change: transform
+}
+.perspective-card-design-2 {
+  width: 250px;
+  height: 350px;
+  margin: 50px;
+  color: #fff;
+  padding: 1rem;
+  text-transform: uppercase;
+  font-family: 'OCR A Std';
+  background-image: url(/design-shots/c18dceda05c05bfda2f03d6c0bd31838dcc65dff/obey-white-the-occult-tee-product-1-032814800-normal.jpeg);
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, .15);
+  background-size: cover;
+  -webkit-filter: invert(100%);
+  position: relative;
+  transform-style: preserve-3d;
+  will-change: transform
+}
+.perspective-card-design-3 {
+  width: 250px;
+  height: 350px;
+  margin: 50px;
+  color: #fff;
+  padding: 1rem;
+  text-transform: uppercase;
+  font-family: 'OCR A Std';
+  background-image: url("/design-shots/6d1111e4bfc60c0a1ca8ba1278c793c63777dc1c/obey-white-the-occult-tee-product-4-032815050-normal (1).jpeg");
+  text-align: center;
+  background-color: #000;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, .15);
+  background-size: cover;
+  -webkit-filter: invert(100%);
+  position: relative;
+  transform-style: preserve-3d;
+  will-change: transform;
+  background-position-x: 545px;
+  max-width: 100%!important;
+  background-clip: content-box
+}
+.perspective-card-design-4 {
+  width: 550px;
+  height: 350px;
+  margin: 50px;
+  color: #fff;
+  padding: 1rem;
+  text-transform: uppercase;
+  font-family: 'OCR A Std';
+  background-image: url(/716ab433ce2c9c5877c252e9af126105cce786d0/5e1db/design-shots/su16_ascii.jpg);
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, .15);
+  background-size: cover;
+  -webkit-filter: invert(100%);
+  position: relative;
+  transform-style: preserve-3d;
+  will-change: transform
+}
+.perspective-card-design-5 {
+  width: 250px;
+  height: 350px;
+  margin: 50px;
+  color: #fff;
+  padding: 1rem;
+  text-transform: uppercase;
+  font-family: 'OCR A Std';
+  background-image: url("/design-shots/4c97b8a7a8797e87321aa3b5f7dc17b5333951b5/screen shot 2016-02-12 at 5.35.16 pm.png");
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, .15);
+  background-size: cover;
+  -webkit-filter: invert(100%);
+  position: relative;
+  transform-style: preserve-3d;
+  will-change: transform
+}
+.perspective-card-design-6 {
+  width: 550px;
+  height: 350px;
+  margin: 50px;
+  color: #fff;
+  padding: 1rem;
+  text-transform: uppercase;
+  font-family: 'OCR A Std';
+  background-image: url(/design-shots/0fce034d4de389e1a40e5fcff4c79be036d177ea/su16_chains.jpg);
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, .15);
+  background-size: cover;
+  position: relative;
+  -webkit-filter: invert(100%);
+  transform-style: preserve-3d;
+  will-change: transform
+}
+.perspective-card-design-7 {
+  width: 359px;
+  height: 359px;
+  margin: 50px;
+  color: #fff;
+  padding: 1rem;
+  text-transform: uppercase;
+  font-family: 'OCR A Std';
+  background-image: url(/design-shots/e21797c488d22867433ce404098ff2c4c3ac06ef/djquflyer-005-fp.jpg);
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, .15);
+  background-size: cover;
+  -webkit-filter: invert(100%);
+  position: relative;
+  transform-style: preserve-3d;
+  will-change: transform
+}
+.perspective-card-design-8 {
+  width: 550px;
+  height: 350px;
+  margin: 50px;
+  color: #fff;
+  padding: 1rem;
+  text-transform: uppercase;
+  font-family: 'OCR A Std';
+  background-image: url(/d24f08520abbcb0baa71c22d1c32743abb596b8d/74f11/design-shots/su16tokyo.jpg);
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, .15);
+  background-size: contain;
+  -webkit-filter: invert(100%);
+  position: relative;
+  transform-style: preserve-3d;
+  will-change: transform
+}
+.perspective-card-design-9 {
+  width: 350px;
+  height: 350px;
+  margin: 50px;
+  color: #fff;
+  padding: 1rem;
+  text-transform: uppercase;
+  font-family: 'OCR A Std';
+  background-image: url(/design-shots/387bb7fb60e42316554e19e04b832e9359f81434/10818125_1532068873698168_191326840_n.jpg);
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, .15);
+  background-size: contain;
+  -webkit-filter: invert(100%);
+  position: relative;
+  transform-style: preserve-3d;
+  will-change: transform
+}
+.perspective-card-design-10 {
+  width: 550px;
+  height: 350px;
+  margin: 50px;
+  color: #fff;
+  padding: 1rem;
+  text-transform: uppercase;
+  font-family: 'OCR A Std';
+  background-image: url(/design-shots/1134c980e5d32742befb46d0d8459a0faf78202d/su16f_loud.jpg);
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, .15);
+  background-size: contain;
+  -webkit-filter: invert(100%);
+  position: relative;
+  transform-style: preserve-3d;
+  will-change: transform
+}
+.perspective-card-design-11 {
+    width: 330px;
+    height: 391px;
+    margin: 50px;
+    color: #fff;
+    padding: 1rem;
+    text-transform: uppercase;
+    font-family: 'OCR A Std';
+    background-image: url("/design-shots/8b38a9877d6b17c2988a48d34ac35341c7c91e6f/patricia-6-11 copy.jpg");
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 3px 20px rgba(0,0,0,.15);
+    background-size: cover;
+    -webkit-filter: invert(100%);
+    position: relative;
+    transform-style: preserve-3d;
+    will-change: transform;
+    /* background-position-x: -97px; */
+    background-clip: inherit;
+}
+.perspective-card-design-12 {
+  width: 550px;
+  height: 350px;
+  margin: 50px;
+  color: #fff;
+  padding: 1rem;
+  text-transform: uppercase;
+  font-family: 'OCR A Std';
+  background-image: url(/3f2868ecaafa780ff99a65a41953f15fe4b9d380/5697e/design-shots/su16_w.jpg);
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, .15);
+  background-size: contain;
+  -webkit-filter: invert(100%);
+  position: relative;
+  transform-style: preserve-3d;
+  will-change: transform
+}
+.perspective-card-design-13 {
+  width: 250px;
+  height: 350px;
+  margin: 50px;
+  color: #fff;
+  padding: 1rem;
+  text-transform: uppercase;
+  font-family: 'OCR A Std';
+  background-image: url(/design-shots/87c211c55992e9461ef249cb0dd019ea3ad49b8b/tumblr_ldsskku8wa1qee2r6.jpg);
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, .15);
+  background-size: cover;
+  -webkit-filter: invert(100%);
+  position: relative;
+  transform-style: preserve-3d;
+  will-change: transform
+}
+.perspective-card-design-14 {
+  width: 250px;
+  height: 431px;
+  margin: 50px;
+  color: #fff;
+  padding: 1rem;
+  text-transform: uppercase;
+  font-family: 'OCR A Std';
+  background-image: url("/design-shots/3f6e81a6b83ee89adfdd5c84a77f07a17f2e9187/screen shot 2016-02-12 at 5.47.46 pm.png");
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, .15);
+  background-size: contain;
+  -webkit-filter: invert(100%);
+  position: relative;
+  transform-style: preserve-3d;
+  will-change: transform
+}
+.perspective-card-design-15 {
+  width: 250px;
+  height: 350px;
+  margin: 50px;
+  color: #fff;
+  padding: 1rem;
+  text-transform: uppercase;
+  font-family: 'OCR A Std';
+  background-image: url(/design-shots/cc32e83343814cd954862e290b8f24aa12470ff6/isometric-paper-from-flickr.jpg);
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, .15);
+  background-size: cover;
+  position: relative;
+  transform-style: preserve-3d;
+  will-change: transform
+}
+.perspective-card-design-16 {
+  width: 250px;
+  height: 350px;
+  margin: 50px;
+  color: #fff;
+  padding: 1rem;
+  text-transform: uppercase;
+  font-family: 'OCR A Std';
+  background-image: url(/design-shots/4f03d8d47c722afc392023b1031ffceea27ce118/isosketch.jpg);
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, .15);
+  background-size: cover;
+  position: relative;
+  transform-style: preserve-3d;
+  will-change: transform
+}
+.perspective-card-1-web {
+  width: 100%;
+  height: 16em;
+  margin: 20px 25px 5px;
+  margin-bottom: 3em;
+  color: #fff;
+  padding: 1rem;
+  text-transform: uppercase;
+  font-family: 'OCR A Std';
+  background-image: url("/web-shots/3167b0027926457176cc5e40f7dbe201b5be3322/screen shot 2016-02-06 at 10.39.49 pm.png");
+  text-align: center;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, .15);
+  background-size: contain;
+  position: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-clip: content-box;
+  -webkit-filter: invert(100%);
+  position: relative
+}
+.perspective-card-2-web {
+  width: 100%;
+  height: 16em;
+  margin: 20px 25px 5px;
+  margin-bottom: 3em;
+  color: #fff;
+  padding: 1rem;
+  text-transform: uppercase;
+  font-family: 'OCR A Std';
+  background-image: url("/ff0726462555fd0a1312c3c8c20776c4d8c51199/89638/web-shots/screen shot 2016-02-06 at 10.48.51 pm.png");
+  text-align: center;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, .15);
+  background-size: contain;
+  position: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-clip: content-box;
+  -webkit-filter: invert(100%);
+  position: relative
+}
+.perspective-card-3-web {
+  width: 100%;
+  height: 16em;
+  margin: 20px 25px 5px;
+  margin-bottom: 3em;
+  color: #fff;
+  padding: 1rem;
+  text-transform: uppercase;
+  font-family: 'OCR A Std';
+  background-image: url("/web-shots/127f4ddfb4eb06afb2362464b7dc7a310269ed0d/screen shot 2016-02-06 at 10.45.08 pm.png");
+  text-align: center;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, .15);
+  background-size: contain;
+  position: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-clip: content-box;
+  -webkit-filter: invert(100%);
+  position: relative
+}
+.perspective-card-4-web {
+  width: 100%;
+  height: 16em;
+  margin: 20px 25px 5px;
+  margin-bottom: 3em;
+  color: #fff;
+  padding: 1rem;
+  text-transform: uppercase;
+  font-family: 'OCR A Std';
+  background-image: url("/web-shots/psrecords.png");
+  text-align: center;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, .15);
+  background-size: contain;
+  position: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-clip: content-box;
+  -webkit-filter: invert(100%);
+  position: relative
+}
+.perspective-card-1-music {
+  width: 100%;
+  height: 100%;
+  margin: 50px;
+  margin-bottom: 3em;
+  color: #fff;
+  padding: 1rem;
+  text-transform: uppercase;
+  font-family: 'OCR A Std';
+  background-image: url(/website_pieces/1abd23eecdd94e6c87fbcc4e05bca7bc733b4447/nous_record1.png);
+  text-align: center;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, .15);
+  background-size: contain;
+  position: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-clip: content-box;
+  -webkit-filter: invert(100%);
+  position: relative
+}
+.soundcloud {
+  -webkit-filter: invert(100%);
+  width: 100%;
+  height: 300px
+}
+.framePos {
+  display: block;
+  width: 100%
+}
+.framePosMusic {
+  -webkit-filter: invert(100%)
+}
+.intrinsic-container {
+  position: relative;
+  height: 50%;
+  /* overflow:hidden; */
+  width: auto;
+  background: 0 0;
+  /*margin-bottom: -93px;*/
+  margin-top: 33px;
+  /* margin-left:50px; */
+}
+.intrinsic-container-16x9 {
+  padding-bottom: 56.25%
+}
+.intrinsic-container-4x3 {
+  padding-bottom: 75%
+}
+.intrinsic-container iframe {
+  position: absolute;
+  top: -110px;
+  left: 0;
+  width: 100%!important;
+  height: 100%!important
+}
+iframe {
+  align-items: center;
+  position: relative;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  border: 0;
+  margin width: 0;
+  margin height: 0
+}
+
+video {
+  align-items: center;
+  position: relative;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  border: 0;
+  margin width: 0;
+  margin height: 0
+}
+#newboxes2 {
+  display: none;
+  margin-bottom: 50px;
+}
+#newboxes3 {
+margin-bottom: 80px;
+}
+
+span {
+  display: none
+}
+
+.details {
+  margin: 3px;
+  margin-left: 48px;
+  font-size: 12px;
+  border: 2px solid #000;
+  background-clip: content-box;
+  padding: 5px 10px 3px 5px
+}
+.detailsMusic {
+  text-align: center;
+  margin: 3px;
+  font-size: 12px;
+  border: 2px solid #000;
+  padding: 5px 10px 3px 5px
+}
+.tc {
+  display: inline-block;
+  margin-right: auto;
+  margin-left: 25%;
+  margin-top: 5%;
+  width: 50%
+}
+.backToHome {
+  padding-left: 0;
+  display: inline-block;
+  font-size: inherit!important
+}
+.backToHomeGallery {
+/*padding: 12px;*/
+}
+
+.desgintab {
+padding-left: 14px;
+font-size: 20px !important;
+}
+
+button#artworktab {
+    padding-left: 34px;
+}
+
+div#newboxes2 {
+    margin-left: 35px;
+    margin-bottom: 50px;
+}
+div#newboxes1 {
+    /*margin-top: -60px;*/
+    margin-left: 35px;
+}
+
+.artworktab {
+font-size: 20px !important;
+}
+
+@media screen and (min-width: 1599px) {
+
+
+.perspective-card-4 {
+  width: 250px;
+  height: 350px;
+  margin: 50px;
+  color: #fff;
+  padding: 1rem;
+  text-transform: uppercase;
+  font-family: 'OCR A Std';
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, .15);
+  background-size: cover;
+  background-image: url(/art-design/round-3/d9172bb9074c763af12fbe68fb81aa583cbe6e10/12547380_990528351017092_249112909_n.jpg);
+  position: relative;
+  transform-style: preserve-3d;
+  will-change: transform;
+}
+
+}
+@media screen and (min-width: 1679px) {
+
+
+.perspective-card-4 {
+  width: 250px;
+  height: 350px;
+  margin: 50px;
+  color: #fff;
+  padding: 1rem;
+  text-transform: uppercase;
+  font-family: 'OCR A Std';
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, .15);
+  background-size: cover;
+  background-image: url(/art-design/round-3/d9172bb9074c763af12fbe68fb81aa583cbe6e10/12547380_990528351017092_249112909_n.jpg);
+  position: relative;
+  transform-style: preserve-3d;
+  will-change: transform;
+  /*top: 222px;*/
+}
+
+}
+@media screen and (min-width: 1919px) {
+
+
+.perspective-card-4 {
+  width: 250px;
+  height: 350px;
+  margin: 50px;
+  color: #fff;
+  padding: 1rem;
+  text-transform: uppercase;
+  font-family: 'OCR A Std';
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, .15);
+  background-size: cover;
+  background-image: url(/art-design/round-3/d9172bb9074c763af12fbe68fb81aa583cbe6e10/12547380_990528351017092_249112909_n.jpg);
+  position: relative;
+  transform-style: preserve-3d;
+  will-change: transform;
+  /*top: 222px;*/
+}
+
+}
+@media screen and (min-width: 1497px) {
+
+.perspective-card-4 {
+  width: 250px;
+  height: 350px;
+  margin: 50px;
+  color: #fff;
+  padding: 1rem;
+  text-transform: uppercase;
+  font-family: 'OCR A Std';
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, .15);
+  background-size: cover;
+  background-image: url(/art-design/round-3/d9172bb9074c763af12fbe68fb81aa583cbe6e10/12547380_990528351017092_249112909_n.jpg);
+  position: relative;
+  transform-style: preserve-3d;
+  will-change: transform;
+  /*top: 222px;*/
+}
+
+}
+
+.container.designcontainer {
+    padding-left: 0;
+    padding-right: 0;
+}
