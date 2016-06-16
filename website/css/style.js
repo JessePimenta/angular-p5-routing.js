@@ -9,7 +9,9 @@ export default StyleSheet.create({
     "container": {
         "display": "flex"
     },
-    "*": {},
+    "*": {
+        "fontFamily": "monaco"
+    },
     "ulwebOption": {
         "WebkitPaddingStart": 0
     },
@@ -41,9 +43,9 @@ export default StyleSheet.create({
         "textAlign": "center"
     },
     "wrapper > *": {
-        "paddingTop": 15,
+        "paddingTop": 0,
         "paddingRight": 15,
-        "paddingBottom": 15,
+        "paddingBottom": 0,
         "paddingLeft": 15,
         "flex": "1 100%"
     },
@@ -54,6 +56,7 @@ export default StyleSheet.create({
         "cursor": "crosshair"
     },
     "header": {
+        "background": "black",
         "paddingTop": .5 * vw,
         "paddingRight": .5 * vw,
         "paddingBottom": .5 * vw,
@@ -78,6 +81,10 @@ export default StyleSheet.create({
         "textDecoration": "none",
         "fontFamily": "\"Lucida Console\", Monaco, monospace"
     },
+    "back-button": {
+        "color": "black",
+        "fontFamily": "monaco"
+    },
     "aside-2": {
         "overflowY": "scroll",
         "position": "relative"
@@ -87,13 +94,17 @@ export default StyleSheet.create({
         "transition": "all linear 0.5s",
         "fontSize": 10
     },
+    "header div": {
+        "WebkitBoxFlex": "auto",
+        "MsFlex": "auto",
+        "flex": "auto",
+        "width": 200,
+        "zIndex": 2
+    },
     "header div img": {
         "width": "100%",
         "height": "auto",
-        "paddingTop": 2,
-        "paddingRight": 2,
-        "paddingBottom": 2,
-        "paddingLeft": 2
+        "zIndex": 2
     },
     "li": {
         "listStyle": "none"
@@ -139,5 +150,28 @@ export default StyleSheet.create({
         "WebkitAnimationDelay": "2.4s",
         "MozAnimationDelay": "2.4s",
         "animationDelay": "2.4s"
+    },
+    "pdetails": {
+        "fontSize": 12,
+        "color": "white",
+        "marginTop": 10,
+        "marginBottom": 20,
+        "fontStyle": "italic"
+    },
+    "headerweb-header": {
+        "marginTop": -20
+    },
+    "h5": {
+        "fontFamily": "monaco"
+    },
+    "flexcontainer": {
+        "display": "flex",
+        "WebkitFlexDirection": "row",
+        "flexDirection": "row",
+        "WebkitJustifyContent": "flex-end",
+        "justifyContent": "flex-end"
+    },
+    "articlemainvideo-mainng-scope": {
+        "top": 10
     }
 });

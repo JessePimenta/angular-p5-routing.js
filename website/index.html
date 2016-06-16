@@ -27,17 +27,11 @@
                   <a ui-sref='instant-abstract-expressionism' class='experimentsTab fade-in three'> instant-expressionism </a>
                   <a ui-sref='ballpit-sculpture' class='experimentsTab fade-in four'> ballpit  </a>
                 </ul>
-                <a class='experimentsTab fade-in one hvr-bounce-in' ng-show='experiments' ng-click='projlist=!projlist'> projects </a>
-                <ul ng-show='projlist'>
-                  <a class='experimentsTab fade-in one'> proj1 </a>
-                  <a class='experimentsTab fade-in two'> proj2 </a>
-                  <a class='experimentsTab fade-in three'> proj3  </a>
-                  <a class='experimentsTab fade-in four'> proj4  </a>
-                </ul>
+                <a class='experimentsTab fade-in one hvr-bounce-in' ng-show='experiments' ui-sref='projects'> projects </a>
                 <a ui-sref="design">
                   <p class='fade-in three'>/ Graphic Design</p>
                 </a>
-                <a ui-sref="music">
+                <a ui-sref="sound-design">
                   <p class='fade-in four'>/ Sound Design</p>
                 </a>
                 <a ui-sref="cv">

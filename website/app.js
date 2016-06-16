@@ -25,6 +25,14 @@ app.config(function($stateProvider, $urlRouterProvider){
     url: '/design',
     templateUrl: 'templates/design.html'
   })
+  .state('projects', {
+    url: '/projects',
+    templateUrl: 'templates/projects.html'
+  })
+  .state('sound-design', {
+    url: '/sound-design',
+    templateUrl: 'templates/sound-design.html'
+  })
 })
 
 
