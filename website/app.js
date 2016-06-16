@@ -33,6 +33,10 @@ app.config(function($stateProvider, $urlRouterProvider){
     url: '/sound-design',
     templateUrl: 'templates/sound-design.html'
   })
+  .state('sound-design', {
+    url: '/sound-design',
+    templateUrl: 'templates/sound-design.html'
+  })
 })
 
 

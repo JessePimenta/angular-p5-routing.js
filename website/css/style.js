@@ -159,7 +159,7 @@ export default StyleSheet.create({
         "fontStyle": "italic"
     },
     "headerweb-header": {
-        "marginTop": -20
+        "marginTop": 119.2 * vw
     },
     "h5": {
         "fontFamily": "monaco"

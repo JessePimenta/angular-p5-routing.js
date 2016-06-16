@@ -122,8 +122,8 @@ a {
     -webkit-box-flex: auto;
     -ms-flex: auto;
     flex: auto;
-    width: 200px;
-    margin-top: 11.5vw;
+    width: 400px;
+    margin-top: 3.5vw;
     margin-bottom: 7.5vw;
 }
 
@@ -266,7 +266,7 @@ p.details {
 }
 
 header.web-header {
-    margin-top: -20px;
+    margin-top: 119.2vw;
 }
 
 h5 {
