@@ -7,10 +7,10 @@ const {width, height, scale} = Dimensions.get("window"),
 
 export default StyleSheet.create({
     "container": {
-        "display": "flex"
+        "minHeight": 600
     },
     "*": {
-        "fontFamily": "monaco"
+        "fontFamily": "monaco !important"
     },
     "ulwebOption": {
         "WebkitPaddingStart": 0
@@ -159,7 +159,7 @@ export default StyleSheet.create({
         "fontStyle": "italic"
     },
     "headerweb-header": {
-        "marginTop": 119.2 * vw
+        "marginTop": 318 * vw
     },
     "h5": {
         "fontFamily": "monaco"
@@ -173,5 +173,239 @@ export default StyleSheet.create({
     },
     "articlemainvideo-mainng-scope": {
         "top": 10
+    },
+    "clearfix::after": {
+        "content": " ",
+        "display": "table",
+        "clear": "both"
+    },
+    "clearfix::before": {
+        "content": " ",
+        "display": "table"
+    },
+    "bold": {
+        "color": "#4a4e51",
+        "fontWeight": 400
+    },
+    "resume-wrapper": {
+        "position": "relative",
+        "textAlign": "center",
+        "height": "100%"
+    },
+    "profile": {
+        "background": "#fff",
+        "width": "40%",
+        "float": "right",
+        "color": "#9099a0",
+        "marginTop": 1322
+    },
+    "profile name-wrapper": {
+        "float": "left",
+        "width": "60%"
+    },
+    "profile h1": {
+        "fontSize": 2.4,
+        "textAlign": "left",
+        "fontFamily": "'Varela Round', sans-serif",
+        "color": "#4a4e51",
+        "textTransform": "uppercase",
+        "lineHeight": 1,
+        "paddingTop": 23
+    },
+    "profile li": {
+        "marginBottom": 10
+    },
+    "profile picture-resume-wrapper": {
+        "width": "40%",
+        "display": "block",
+        "float": "left"
+    },
+    "profile picture-resume": {
+        "width": 220,
+        "height": 220,
+        "backgroundSize": "cover",
+        "borderRadius": "50%",
+        "marginRight": 0,
+        "display": "table",
+        "position": "relative",
+        "verticalAlign": "middle"
+    },
+    "profile picture-resume span": {
+        "display": "table-cell",
+        "verticalAlign": "middle",
+        "position": "relative",
+        "marginTop": 0,
+        "marginRight": "auto",
+        "marginBottom": 0,
+        "marginLeft": "auto",
+        "zIndex": 10,
+        "textAlign": "center"
+    },
+    "profile picture-resume img": {
+        "borderRadius": "50%",
+        "width": 130
+    },
+    "profile contact-info": {
+        "fontWeight": 300
+    },
+    "profile list-titles": {
+        "float": "left",
+        "textAlign": "left",
+        "fontWeight": 600,
+        "width": "40%",
+        "color": "#4a4e51"
+    },
+    "profile list-content": {
+        "float": "left",
+        "width": "60%",
+        "textAlign": "left",
+        "fontWeight": 300
+    },
+    "profile contact-presentation": {
+        "textAlign": "left",
+        "fontWeight": 300,
+        "marginTop": 100,
+        "marginBottom": 100
+    },
+    "profile svg": {
+        "width": "100%",
+        "position": "absolute",
+        "top": 0,
+        "left": 0
+    },
+    "profile st0": {
+        "fill": "#66cc99"
+    },
+    "profile st1": {
+        "fill": "#66cc99"
+    },
+    "experience": {
+        "background": "#080808",
+        "width": "91%",
+        "float": "left",
+        "position": "relative",
+        "color": "#9099a0",
+        "fontWeight": 300,
+        "minHeight": 100 * vh,
+        "zIndex": 1
+    },
+    "experience h3experience-title": {
+        "color": "rgba(32, 152, 209, 0.75)",
+        "textAlign": "left",
+        "textTransform": "uppercase",
+        "fontSize": 1.2,
+        "marginBottom": 20,
+        "fontWeight": 400
+    },
+    "experience company-wrapper": {
+        "width": "17%",
+        "float": "left",
+        "textAlign": "left",
+        "paddingRight": "5%",
+        "marginBottom": 20
+    },
+    "experience job-wrapper": {
+        "width": "70%",
+        "float": "left",
+        "textAlign": "left",
+        "paddingRight": "5%",
+        "marginBottom": 60
+    },
+    "experience experience-title": {
+        "color": "white",
+        "marginBottom": 15
+    },
+    "section-padding": {
+        "paddingTop": 60,
+        "paddingRight": 60,
+        "paddingBottom": 40,
+        "paddingLeft": 40
+    },
+    "section-wrapper": {
+        "width": "40%",
+        "float": "left",
+        "textAlign": "left",
+        "color": "#9099a0",
+        "fontWeight": 300,
+        "marginBottom": 20
+    },
+    "section-wrapper:nth-child(3)": {
+        "paddingRight": "8%"
+    },
+    "section-wrapper h3section-title": {
+        "color": "#0e6b9e",
+        "textAlign": "left",
+        "textTransform": "uppercase",
+        "fontSize": 1.2,
+        "marginBottom": 20,
+        "fontWeight": 400
+    },
+    "section-wrapper skill-percentage": {
+        "marginBottom": 10,
+        "position": "relative"
+    },
+    "section-wrapper skill-percentage::after": {
+        "content": "",
+        "width": "100%",
+        "height": 6,
+        "background": "#4a4e51",
+        "display": "block",
+        "marginTop": 3
+    },
+    "section-wrapper skill-percentage::before": {
+        "content": "",
+        "height": 6,
+        "background": "#0e6b9e",
+        "position": "absolute",
+        "marginTop": 3,
+        "bottom": 0
+    },
+    "section-wrapper skill-percentage:nth-child(1)::before": {
+        "width": "100%",
+        "WebkitAnimation": "skill_1 0.6s ease",
+        "animation": "skill_1 0.6s ease"
+    },
+    "section-wrapper skill-percentage:nth-child(2)::before": {
+        "width": "100%",
+        "WebkitAnimation": "skill_2 0.6s ease",
+        "animation": "skill_2 0.6s ease"
+    },
+    "section-wrapper skill-percentage:nth-child(3)::before": {
+        "width": "80%",
+        "WebkitAnimation": "skill_3 0.6s ease",
+        "animation": "skill_3 0.6s ease"
+    },
+    "section-wrapper skill-percentage:nth-child(4)::before": {
+        "width": "80%",
+        "WebkitAnimation": "skill_4 0.6s ease",
+        "animation": "skill_4 0.6s ease"
+    },
+    "section-wrapper skill-percentage:nth-child(5)::before": {
+        "width": "70%",
+        "WebkitAnimation": "skill_5 0.6s ease",
+        "animation": "skill_5 0.6s ease"
+    },
+    "section-wrapper skill-percentage:nth-child(6)::before": {
+        "width": "60%",
+        "WebkitAnimation": "skill_6 0.6s ease",
+        "animation": "skill_6 0.6s ease"
+    },
+    "section-wrapper skill-percentage:nth-child(7)::before": {
+        "width": "80%",
+        "WebkitAnimation": "skill_6 0.6s ease",
+        "animation": "skill_6 0.6s ease"
+    },
+    "section-wrapper skill-percentage:nth-child(8)::before": {
+        "width": "100%",
+        "WebkitAnimation": "skill_6 0.6s ease",
+        "animation": "skill_6 0.6s ease"
+    },
+    "section-wrapper skill-percentage:nth-child(9)::before": {
+        "width": "100%",
+        "WebkitAnimation": "skill_6 0.6s ease",
+        "animation": "skill_6 0.6s ease"
+    },
+    "phobbies-desc": {
+        "paddingTop": 3
     }
 });
