@@ -14,18 +14,18 @@ ul.webOption {
 
 ul {
     -webkit-padding-start: 0px;
+    color: black;
+    display: block;
 }
 
 html, body {
-  height: 100%;
+  height: auto;
 }
 
 body {
   margin: 0;
   display: flex;
-
   justify-content: center;
-
   align-items: center;
 }
 
@@ -55,6 +55,7 @@ a {
     color: black;
     -webkit-padding-start: 0px;
     cursor: crosshair;
+    display: block;
 }
 .header {background: black;}
 
@@ -69,13 +70,20 @@ a {
 
 @media all and (max-width: 480px) {
 
+header.design-header {
+    /* margin-top: 2000px !important; */
+}
+
   header.design-header {
-    margin-top: 3400px;
+    margin-top: 3800px;
 }
 
   header.web-header {
   background: none;
-  margin-top: 400px !important;
+}
+
+header.web-header {
+    margin-top: 474vw;
 }
 
   p.details {
@@ -88,7 +96,7 @@ a {
     /* -webkit-margin-after: 0em; */
 }
   aside.aside.aside-1 {
-    margin-top: 700px;
+    /* margin-top: 700px; */
 }
 .main {
    margin-top: 0px;
@@ -110,10 +118,17 @@ a {
 .aside-2 {
   overflow-y: scroll;
   position: relative;
+  /* max-width: 426px; */
+  overflow-x: hidden;
 }
 
 @media all and (min-width: 600px) {
-  .aside { flex: 1 auto; }
+  .aside {/* flex: 1 auto; */}
+}
+@media all and (max-width: 321px) {
+header.design-header {
+    margin-top: 2000px !important;
+  }
 }
 
 @media all and (min-width: 800px) {
@@ -148,10 +163,10 @@ a {
     margin: 7.5vw;
 }
   .main    {flex: 3 0px;position: fixed;top: -18px;left: 426px;}
-  .aside-1 {order: 1;margin-top: 100px;font-size: 14px;text-decoration: none;/* width: 20%; */font-family: "Lucida Console", Monaco, monospace;position: fixed;left: 50px;bottom: 0;top: -60px;z-index: 1;}
+  .aside-1 {order: 1;margin-top: 100px;font-size: 14px;text-decoration: none;/* width: 30%; */font-family: "Lucida Console", Monaco, monospace;position: fixed;left: 80px;bottom: 0;top: -60px;z-index: 1;}
   .main    {order: 2;}
   .aside-2 {order: 3;position: relative;font-family: monaco;font-size: 14px;}
-  .footer  {order: 4;float: left;position: fixed;left: 148px;bottom: 0;font-family: monaco;font-size: 9px;color: blue;}
+  .footer  {order: 4;float: left;position: fixed;left: 156px;bottom: 0;font-family: monaco;font-size: 9px;color: blue;}
 }
 
 body {
@@ -192,6 +207,9 @@ header div img {
   z-index: 2;
 }
 @media screen and (max-width: 400px) {
+  header.web-header {
+    margin-top: 475vw;
+}
   header div { margin: 0; }
   header {padding: 0;/* background: black; */font-family: monaco;}
 
@@ -266,7 +284,7 @@ p.details {
 }
 
 header.web-header {
-    margin-top: 318vw;
+    /* margin-top: 298vw; */
 }
 
 h5 {
@@ -286,7 +304,7 @@ header {
     display: -webkit-box;
     display: flex;
     background: black;
-    margin-top: 4700px;
+    margin-top: 350px;
 }
 }
 .flexcontainer {
@@ -314,8 +332,10 @@ article.main.video-main.ng-scope {
 }
 
 .bold {
-  color: #4a4e51;
+  color: #000000;
   font-weight: 400;
+  font-size: 16px;
+  font-style: normal;
 }
 
 .resume-wrapper {
@@ -333,7 +353,7 @@ article.main.video-main.ng-scope {
   width: 40%;
   float: right;
   color: #9099a0;
-  margin-top: 1322px;
+  margin-top: -99px;
 }
 @media (max-width: 850px) {
   .profile {
@@ -366,6 +386,7 @@ article.main.video-main.ng-scope {
 }
 .profile li {
   margin-bottom: 10px;
+  color: black;
 }
 .profile .picture-resume-wrapper {
   width: 40%;
@@ -508,10 +529,10 @@ article.main.video-main.ng-scope {
   font-weight: 400;
 }
 .experience .company-wrapper {
-  width: 17%;
+  width: 24%;
   float: left;
   text-align: left;
-  padding-right: 5%;
+  padding-right: 1%;
   margin-bottom: 20px;
 }
 @media (max-width: 450px) {
@@ -521,10 +542,10 @@ article.main.video-main.ng-scope {
   }
 }
 .experience .job-wrapper {
-  width: 70%;
+  width: 74%;
   float: left;
   text-align: left;
-  padding-right: 5%;
+  padding-right: 1%;
   margin-bottom: 60px;
 }
 @media (max-width: 450px) {
@@ -757,4 +778,8 @@ article.main.video-main.ng-scope {
 }
 p.hobbies-desc {
     padding-top: 3px;
+}
+
+.explist {
+  font-style: italic
 }

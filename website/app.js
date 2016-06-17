@@ -13,8 +13,8 @@ app.config(function($stateProvider, $urlRouterProvider){
     url: '/lightworks',
     templateUrl: 'templates/lightworks.html'
   })
-  .state('ballpit-sculpture', {
-    url: '/ballpit-sculpture',
+  .state('colortrails', {
+    url: '/colortrails',
     templateUrl: 'templates/ballpit-sculpture.html'
   })
   .state('instant-abstract-expressionism', {

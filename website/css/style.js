@@ -16,13 +16,15 @@ export default StyleSheet.create({
         "WebkitPaddingStart": 0
     },
     "ul": {
-        "WebkitPaddingStart": 0
+        "WebkitPaddingStart": 0,
+        "color": "black",
+        "display": "block"
     },
     "html": {
-        "height": "100%"
+        "height": "auto"
     },
     "body": {
-        "height": "100%",
+        "height": "auto",
         "marginTop": 0,
         "marginRight": 0,
         "marginBottom": 0,
@@ -53,7 +55,8 @@ export default StyleSheet.create({
         "textDecoration": "none",
         "color": "black",
         "WebkitPaddingStart": 0,
-        "cursor": "crosshair"
+        "cursor": "crosshair",
+        "display": "block"
     },
     "header": {
         "background": "black",
@@ -87,7 +90,8 @@ export default StyleSheet.create({
     },
     "aside-2": {
         "overflowY": "scroll",
-        "position": "relative"
+        "position": "relative",
+        "overflowX": "hidden"
     },
     "experimentsTab": {
         "WebkitTransition": "all linear 0.5s",
@@ -158,9 +162,7 @@ export default StyleSheet.create({
         "marginBottom": 20,
         "fontStyle": "italic"
     },
-    "headerweb-header": {
-        "marginTop": 318 * vw
-    },
+    "headerweb-header": {},
     "h5": {
         "fontFamily": "monaco"
     },
@@ -184,8 +186,10 @@ export default StyleSheet.create({
         "display": "table"
     },
     "bold": {
-        "color": "#4a4e51",
-        "fontWeight": 400
+        "color": "#000000",
+        "fontWeight": 400,
+        "fontSize": 16,
+        "fontStyle": "normal"
     },
     "resume-wrapper": {
         "position": "relative",
@@ -197,7 +201,7 @@ export default StyleSheet.create({
         "width": "40%",
         "float": "right",
         "color": "#9099a0",
-        "marginTop": 1322
+        "marginTop": -99
     },
     "profile name-wrapper": {
         "float": "left",
@@ -213,7 +217,8 @@ export default StyleSheet.create({
         "paddingTop": 23
     },
     "profile li": {
-        "marginBottom": 10
+        "marginBottom": 10,
+        "color": "black"
     },
     "profile picture-resume-wrapper": {
         "width": "40%",
@@ -298,17 +303,17 @@ export default StyleSheet.create({
         "fontWeight": 400
     },
     "experience company-wrapper": {
-        "width": "17%",
+        "width": "24%",
         "float": "left",
         "textAlign": "left",
-        "paddingRight": "5%",
+        "paddingRight": "1%",
         "marginBottom": 20
     },
     "experience job-wrapper": {
-        "width": "70%",
+        "width": "74%",
         "float": "left",
         "textAlign": "left",
-        "paddingRight": "5%",
+        "paddingRight": "1%",
         "marginBottom": 60
     },
     "experience experience-title": {
@@ -407,5 +412,8 @@ export default StyleSheet.create({
     },
     "phobbies-desc": {
         "paddingTop": 3
+    },
+    "explist": {
+        "fontStyle": "italic"
     }
 });
