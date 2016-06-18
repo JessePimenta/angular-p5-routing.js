@@ -75,7 +75,7 @@ header.design-header {
 }
 
   header.design-header {
-    margin-top: 3800px;
+    /* margin-top: 3800px; */
 }
 
   header.web-header {
@@ -83,7 +83,7 @@ header.design-header {
 }
 
 header.web-header {
-    margin-top: 474vw;
+    /* margin-top: 474vw; */
 }
 
   p.details {
@@ -208,7 +208,7 @@ header div img {
 }
 @media screen and (max-width: 400px) {
   header.web-header {
-    margin-top: 475vw;
+    /* margin-top: 475vw; */
 }
   header div { margin: 0; }
   header {padding: 0;/* background: black; */font-family: monaco;}
