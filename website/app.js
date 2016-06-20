@@ -101,7 +101,7 @@ var r = p.random(0, 255);
 var g = p.random(0, 255);
 
   p.setup = function() {
-  var cnv = p.createCanvas(875, 510);
+  var cnv = p.createCanvas(1313, 510);
    // Move the canvas so it's inside our <div id="sketch-holder">.
    cnv.parent('sketch-holder');
    p.noStroke();
@@ -125,6 +125,9 @@ var g = p.random(0, 255);
 
    p.background(r, g, colorVector.x)
    p.rect(0, 0, p.width / 2, p.height);
+  //  add a duplicate and set it 437 pixels from the left to get three panels
+   p.background(r, g, colorVector.x)
+   p.rect(437, 0, p.width / 3, p.height);
 
    //copy array values from back to front
    for (var i = num - 1; i > 0; i--) {
@@ -157,7 +160,7 @@ var randNum;
 
 return function(p){
   p.setup = function() {
-  var cnv = p.createCanvas(875, 710);
+  var cnv = p.createCanvas(875, 900);
    // Move the canvas so it's inside our <div id="sketch-holder">.
    cnv.parent('sketch-holder');
    p.noStroke();
@@ -222,7 +225,7 @@ var randNum;
 
 return function(p){
   p.setup = function() {
-  var cnv = p.createCanvas(875, 710);
+  var cnv = p.createCanvas(875, 900);
    // Move the canvas so it's inside our <div id="sketch-holder">.
    cnv.parent('sketch-holder');
    p.noStroke();
@@ -290,7 +293,7 @@ var randNum;
 
 return function(p){
   p.setup = function() {
-  var cnv = p.createCanvas(875, 710);
+  var cnv = p.createCanvas(875, 900);
    // Move the canvas so it's inside our <div id="sketch-holder">.
    cnv.parent('sketch-holder');
    p.noStroke();

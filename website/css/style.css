@@ -600,6 +600,7 @@ article.main.video-main.ng-scope {
 .section-wrapper .skill-percentage {
   margin-bottom: 10px;
   position: relative;
+  color: white;
 }
 .section-wrapper .skill-percentage::after {
   content: "";

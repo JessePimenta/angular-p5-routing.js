@@ -347,7 +347,8 @@ export default StyleSheet.create({
     },
     "section-wrapper skill-percentage": {
         "marginBottom": 10,
-        "position": "relative"
+        "position": "relative",
+        "color": "white"
     },
     "section-wrapper skill-percentage::after": {
         "content": "",
