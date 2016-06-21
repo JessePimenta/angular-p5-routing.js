@@ -126,8 +126,94 @@ header.web-header {
   .aside {/* flex: 1 auto; */}
 }
 @media all and (max-width: 321px) {
+
+  .profile .contact-info {
+    margin-top: 50px;
+    margin-left: 0px;
+}
+
+  .profile .list-content {
+    float: left;
+    width: 60%;
+    text-align: left;
+    font-weight: 300;
+    margin-left: 20px;
+    font-size: 11px;
+}
+
+  .profile .list-titles {
+    float: left;
+    text-align: left;
+    font-weight: 600;
+    font-size: 10px;
+    width: 40%;
+    color: #4a4e51;
+    margin-left: 14px;
+    display: none;
+}
+
+  .profile .contact-presentation {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-top: 20px !important;
+    margin-left: 20px;
+    font-size: 12px !important;
+}
+.profile h1 {
+    font-size: 1.2em !important;
+    padding-top: 45px !important;
+    margin-left: 20px;
+    padding-bottom: 0;
+    margin-bottom: -20px;
+}
 header.design-header {
-    margin-top: 2000px !important;
+    margin-top: 0px !important;
+  }
+}
+
+@media all and (max-width: 375px) {
+
+  .profile .contact-info {
+    margin-top: 50px;
+    margin-left: 0px;
+}
+
+  .profile .list-content {
+    float: left;
+    width: 60%;
+    text-align: left;
+    font-weight: 300;
+    margin-left: 20px;
+    font-size: 11px;
+}
+
+  .profile .list-titles {
+    float: left;
+    text-align: left;
+    font-weight: 600;
+    font-size: 10px;
+    width: 40%;
+    color: #4a4e51;
+    margin-left: 14px;
+    display: none;
+}
+
+  .profile .contact-presentation {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-top: 20px !important;
+    margin-left: 20px;
+    font-size: 12px !important;
+}
+.profile h1 {
+    font-size: 1.2em !important;
+    padding-top: 45px !important;
+    margin-left: 20px;
+    padding-bottom: 0;
+    margin-bottom: -20px;
+}
+header.design-header {
+    margin-top: 0px !important;
   }
 }
 
@@ -140,6 +226,13 @@ header.design-header {
     width: 400px;
     margin-top: 3.5vw;
     margin-bottom: 7.5vw;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+  header.design-header {
+      margin-top: 1000px;
+    }
+
 }
 
   header {
@@ -443,7 +536,14 @@ article.main.video-main.ng-scope {
     height: 200px;
   }
 }
-@media (max-width: 450px) {
+@media (max-width: 414px) and (min-width: 320px) {
+
+  h1.sound-design-title {
+    margin-left: 60px;
+    text-align: center;
+    font-size: 14px;
+}
+
   .profile .picture-resume {
     width: 180px;
     height: 180px;
@@ -492,6 +592,44 @@ article.main.video-main.ng-scope {
   .profile .contact-presentation {
     margin-top: 50px;
     margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 850px) and (min-width: 399px) {
+
+  .profile .list-content {
+    float: left;
+    width: 60%;
+    text-align: left;
+    font-weight: 300;
+    margin-left: 20px;
+}
+
+  .profile .list-titles {
+    float: left;
+    text-align: left;
+    font-weight: 600;
+    width: 40%;
+    color: #4a4e51;
+    font-size: 14px;
+    display: none;
+}
+
+  .profile h1 {
+    font-size: 1.8em;
+    padding-top: 30px;
+    margin-left:20px;
+}
+
+  .profile .contact-info {
+    margin-top: 50px;
+    font-size: 14px;
+    margin-left: 0px;
+}
+  .profile .contact-presentation {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 20px;
   }
 }
 .profile svg {
@@ -564,12 +702,12 @@ article.main.video-main.ng-scope {
 }
 @media (max-width: 850px) {
   .section-padding {
-    padding: 80px 15% 40px 10%;
+    padding: 80px 0% 40px 10%;
   }
 }
 @media (max-width: 450px) {
   .section-padding {
-    padding: 40px 1% 20px 5%;
+    padding: 40px 0% 20px 4%;
   }
 }
 
