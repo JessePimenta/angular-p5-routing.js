@@ -1,3 +1,7 @@
+window.onblur = function () { document.title = 'I miss you :('; }
+
+window.onfocus = function () { document.title = 'Jesse Pimenta'; }
+
 var app = angular.module('app', ['ui.router','angular-p5']);
 
 app.config(function($stateProvider, $urlRouterProvider){

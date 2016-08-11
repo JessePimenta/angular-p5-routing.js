@@ -187,7 +187,7 @@ export default StyleSheet.create({
     },
     "bold": {
         "color": "#000000",
-        "fontWeight": 400,
+        "fontWeight": "400",
         "fontSize": 16,
         "fontStyle": "normal"
     },
@@ -251,12 +251,12 @@ export default StyleSheet.create({
         "width": 130
     },
     "profile contact-info": {
-        "fontWeight": 300
+        "fontWeight": "300"
     },
     "profile list-titles": {
         "float": "left",
         "textAlign": "left",
-        "fontWeight": 600,
+        "fontWeight": "600",
         "width": "40%",
         "color": "#4a4e51"
     },
@@ -264,11 +264,11 @@ export default StyleSheet.create({
         "float": "left",
         "width": "60%",
         "textAlign": "left",
-        "fontWeight": 300
+        "fontWeight": "300"
     },
     "profile contact-presentation": {
         "textAlign": "left",
-        "fontWeight": 300,
+        "fontWeight": "300",
         "marginTop": 100,
         "marginBottom": 100
     },
@@ -290,7 +290,7 @@ export default StyleSheet.create({
         "float": "left",
         "position": "relative",
         "color": "#9099a0",
-        "fontWeight": 300,
+        "fontWeight": "300",
         "minHeight": 100 * vh,
         "zIndex": 1
     },
@@ -300,7 +300,7 @@ export default StyleSheet.create({
         "textTransform": "uppercase",
         "fontSize": 1.2,
         "marginBottom": 20,
-        "fontWeight": 400
+        "fontWeight": "400"
     },
     "experience company-wrapper": {
         "width": "24%",
@@ -331,7 +331,7 @@ export default StyleSheet.create({
         "float": "left",
         "textAlign": "left",
         "color": "#9099a0",
-        "fontWeight": 300,
+        "fontWeight": "300",
         "marginBottom": 20
     },
     "section-wrapper:nth-child(3)": {
@@ -343,7 +343,7 @@ export default StyleSheet.create({
         "textTransform": "uppercase",
         "fontSize": 1.2,
         "marginBottom": 20,
-        "fontWeight": 400
+        "fontWeight": "400"
     },
     "section-wrapper skill-percentage": {
         "marginBottom": 10,

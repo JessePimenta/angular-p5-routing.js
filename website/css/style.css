@@ -2,6 +2,24 @@
   /* display: flex; */
 }
 
+@font-face {
+  font-family: "circular";
+  src: url("lineto-circular-black.woff") format('woff');
+}
+@font-face {
+  font-family: "myfont";
+  src: url("lineto-circular-pro-bold.woff") format('woff');
+}
+@font-face {
+  font-family: "circular-book";
+  src: url("lineto-circular-pro-book.woff") format('woff');
+}
+@font-face {
+  font-family: "myfont";
+  src: url("lineto-circular-pro-medium.woff") format('woff');
+}
+
+
 * {
   /*transition: all .2s;*/
   font-family: monaco !important;
